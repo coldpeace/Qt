@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<!DOCTYPE platform SYSTEM "simgrid.dtd">
+<simgrid verion="2">
+<overview label="Overview" link="http://simgrid.gforge.inria.fr/doc/index.html">
+</overview>
+<faq link="http://simgrid.gforge.inria.fr/doc/faq.html">
+ <firstStep label="FAQ::Where should i start?" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_simgrid"/>
+ <cmake label="FAQ::installing Simgrid with CMake" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_cmake"/>
+ <autotools label="FAQ::installing Simgrid with Autotools" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_installation"/>
+ <msg label="FAQ::MSG features" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_MIA_MSG"/>
+ <simdag label="FAQ::SimDag related questions" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_MIA_SimDag"/>
+ <generic label="FAQ::Generic features" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_MIA_generic"/>
+ <platform label="FAQ::Platform building and Dynamic resources" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_platform"/>
+ <behavior label="FAQ::changing Simgrid's behaviour" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_simgrid_configuration"/>
+ <visualization label="FAQ::Tracing Simulation for Visualization" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_tracing"/>
+ <modelChecking label="FAQ::Model-Checking" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_modelchecking"/>
+ <lua label="FAQ::Lua Bindings" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_binding_lua"/>
+ <ruby label="FAQ::Ruby Bindings" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_binding_ruby"/>
+ <troubleshooting label="FAQ::Troubleshooting" link="http://simgrid.gforge.inria.fr/doc/faq.html#faq_troubleshooting"/>
+</faq>
+<modules label="Modules" link="http://simgrid.gforge.inria.fr/doc/modules.html">
+ <xbt label="Module::XBT" link="http://simgrid.gforge.inria.fr/doc/group__XBT__API.html">
+ 	<groudingFeatures label="Module::XBT::Grouding features" link="http://simgrid.gforge.inria.fr/doc/group__XBT__grounding.html"/>
+	<dataStructures label="Module::XBT::Data Structures" link="http://simgrid.gforge.inria.fr/doc/group__XBT__adt.html"/>
+        <miscGerenalPurposes label="Module::XBT::Misc general purposes library components" link="http://simgrid.gforge.inria.fr/doc/group__XBT__misc.html"/>
+	<malloc label="Module::XBT::Malloc and friends" link="http://simgrid.gforge.inria.fr/doc/group__XBT__syscall.html"/>
+	<string label="Module::XBT::String related functions" link="http://simgrid.gforge.inria.fr/doc/group__XBT__str.html"/>
+	<exception label="Module::XBT::Exception support" link="http://simgrid.gforge.inria.fr/doc/group__XBT__ex.html"/>
+	<logging lable="Module::XBT::Logging support" link="http://simgrid.gforge.inria.fr/doc/group__XBT__API.html"/>
+	<assert label="Module::XBT::Assert macro family" link="http://simgrid.gforge.inria.fr/doc/group__XBT__error.html"/>
+	<configuraion label="Module::XBT::Configuration support" link="http://simgrid.gforge.inria.fr/doc/group__XBT__config.html"/>
+	<mallocators label="Module::XBT::Mallocators" link="http://simgrid.gforge.inria.fr/doc/group__XBT__mallocator.html"/>
+	<dynar label="Module::XBT::Dynar: generic dynamic array" link="http://simgrid.gforge.inria.fr/doc/group__XBT__dynar.html"/>
+	<dict label="Module::XBT::Dict: generic dictionnary" link="http://simgrid.gforge.inria.fr/doc/group__XBT__dict.html"/>
+	<set label="Module::XBT::Set: generic set datatype" link="http://simgrid.gforge.inria.fr/doc/group__XBT__set.html"/>
+	<fifo label="Module::XBT::Fifo: generic workqueue" link="http://simgrid.gforge.inria.fr/doc/group__XBT__fifo.html"/>
+	<swag label="Module::XBT::Swag: O(1) set datatype" link="http://simgrid.gforge.inria.fr/doc/group__XBT__swag.html"/>
+	<heap label="Module::XBT::Heap: generic heap data structure" link="http://simgrid.gforge.inria.fr/doc/group__XBT__heap.html"/>
+	<graphicLibrary label="Module::XBT::General purpose graph library" link="http://simgrid.gforge.inria.fr/doc/group__XBT__graph.html"/>
+ </xbt>
+ <msg label="Module::MSG" link="http://simgrid.gforge.inria.fr/doc/group__MSG__API.html">
+	<msgNative label="Module::MSG::Msg Native" link="http://simgrid.gforge.inria.fr/doc/group__MSG__C.html"/>
+	<msgJava label="Module::MSG::Msg for JAVA" link="http://simgrid.gforge.inria.fr/doc/group__MSG__JAVA.html"/>
+	<msgLua label="Module::MSG::Msg for lua" link="http://simgrid.gforge.inria.fr/doc/group__MSG__LUA.html"/>
+ </msg>
+</modules>
+</simgrid>
