@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/resources/kassette_rad.png</file>
+        <file>qml/resources/kassette_spuhle.png</file>
+        <file>qml/resources/kassette.png</file>
+        <file>qml/Kassette.qml</file>
+        <file>qml/resources/volum.png</file>
+        <file>qml/resources/background.png</file>
+        <file>qml/resources/button.png</file>
+        <file>qml/resources/speaker.png</file>
+        <file>qml/resources/label.png</file>
+        <file>qml/resources/kassette_orig.png</file>
+    </qresource>
+</RCC>
